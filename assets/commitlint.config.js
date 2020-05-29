@@ -1,6 +1,7 @@
 // This config based on @commitlint/config-conventional
 
 module.exports = {
+  extends: ["@commitlint/config-conventional"],
   rules: {
     // Body of commit needs to start from empty string
     "body-leading-blank": [2, "always"],

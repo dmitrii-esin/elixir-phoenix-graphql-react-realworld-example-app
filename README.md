@@ -58,8 +58,10 @@ mix phx.server  # run the application.
 5. iter (point 1., etc.)
 
 # Useful tips
+
 - Autoformat on save for the vscode:
-You can use [this extension](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) for the vscode and then add the next parameters to the settings.json:
+  You can use [this extension](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) for the vscode and then add the next parameters to the settings.json:
+
 ```shell
 "emeraldwalk.runonsave": {
     "commands": [
@@ -83,4 +85,5 @@ You can use [this extension](https://marketplace.visualstudio.com/items?itemName
 <br />
 
 # License
+
 All of the codebases are **MIT licensed** unless otherwise specified.
