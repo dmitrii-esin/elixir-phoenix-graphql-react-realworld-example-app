@@ -17,6 +17,13 @@ defmodule RealWorldWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    # TODO: Our react app will only be served on /route. 
+    # Since Phoenix got a /not-found-route, it tried to match the route based on the router.ex file. 
+    # If we have created a page not found component on react and we want that to be served instead of phoenix not found route, 
+    # we must tell phoenix that whenever it doesn’t find a the appropriate route, 
+    # we must redirect it on the routes on the client side.
+    # https://medium.com/@ken11zer01/create-react-app-and-elixir-phoenix-227678660257
+    get "/*path", PageController, :index
   end
 
   # Other scopes may use custom stacks.
