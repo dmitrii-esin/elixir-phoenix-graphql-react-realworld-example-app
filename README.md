@@ -28,7 +28,7 @@ To get started, run the following commands in your project folder:
 
 ```shell
 mix deps.get  # installs the backend dependencies
-cd ./assets && yarn install && yarn build && cd.. # installs the frontend dependencies and setup the build
+cd ./assets && yarn install && cd .. # installs the frontend dependencies and setup the build
 mix ecto.create  # creates the database.
 mix phx.server  # run the application.
 ```
