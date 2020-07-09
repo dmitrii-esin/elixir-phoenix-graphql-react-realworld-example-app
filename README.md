@@ -59,7 +59,7 @@ mix phx.server  # run the application.
 
 # Useful tips
 
-- Autoformat on save for the vscode:
+- Autoformat "on save" for the vscode:
   You can use [this extension](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) for the vscode and then add the next parameters to the settings.json:
 
 ```shell
