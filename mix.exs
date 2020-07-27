@@ -49,9 +49,10 @@ defmodule RealWorld.MixProject do
       {:absinthe, "~> 1.5.0"},
       {:absinthe_plug, "~> 1.5.0"},
       {:dataloader, "~> 1.0.0"},
-      {:absinthe_phoenix, "~> 2.0.0"},
-      {:husky, "~> 1.0", only: :dev, runtime: false},
-      {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+      {:absinthe_phoenix, "~> 2.0.0"}
+      # TODO: fix husky and credo configuration
+      # {:husky, "~> 1.0", only: :dev, runtime: false},
+      # {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
     ]
   end
 
